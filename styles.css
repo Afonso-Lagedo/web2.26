@@ -68,3 +68,13 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+
+#rodape{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #FDF5E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

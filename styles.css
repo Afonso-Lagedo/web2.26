@@ -38,8 +38,33 @@ body{
 
 #btnCaixa{
     border: none;
-    background-color: #2f2fcd;
+    background-color: #3d3dcd;
     color: #ffffff;
     border-radius: 8px;
     padding: 12px 30px;
+}
+
+#caixinhas{
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px
+}
+
+.barra{
+    width: 15%;
+    height: 2px;
+    background-color: #3d3dcd;
+}
+.caixinha{
+    border: 1px solid #C0C0C0;
+    border-radius: 12px;
+    width: 30%;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
